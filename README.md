@@ -1,2 +1,3 @@
 # sqlite_database_operations
-Introduction to databases with SQLite
+### Assignment #3- HHA 504
+- Introduction to databases with SQLite
