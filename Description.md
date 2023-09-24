@@ -13,4 +13,13 @@
 
 ## SQLite Database Setup:
 - The one package that needed to be imported before running the needed commands was ```import sqlite3``` _(considering that the pandas package has been imported from previously)_
+- Created the database by using ```conn = sqlite3.connect('___.db')``` as well as ```c = conn.cursor()```
+- Then the table was created within the database through the ```c.execute``` command
+- After confirming that the table has been created within the db and it returns no values since it is empty we proceed to the INSERT INTO SQL query
+- We begin adding info in the created table within the database and then to view our table we can do it by using pandas read
 - 
+### Creating a table through the Automatic Table Creation:
+- We have our loaded and corrected dataset from previously
+- Then we can use ```df.to_sql``` command to load the dataset into our new table
+- Lastly we can use the pandas command ```pd.read_sql``` to read the dataset through our new created table in our db
+*** Committing changes and closing our dataset should be done sporadically throughout by using ```conn.commit()``` & ```conn.close()```***
