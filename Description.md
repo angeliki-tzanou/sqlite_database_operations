@@ -1,6 +1,6 @@
 #Introduction to databases with SQLite
 
-## Importing of Datasetes: imported packages 
+## Importing of Datasetes: 
 - First imported through pandas the two datasets (1 csv, 1 json) of hospital records provided. ```import pandas as pd```
 - Then after having the two datasets, some basic exploratory analysis was done for each
 - Handling Missing Values:
@@ -12,4 +12,5 @@
 - These analysis steps were repeated for the second dataset imported (json file).
 
 ## SQLite Database Setup:
-
+- The one package that needed to be imported before running the needed commands was ```import sqlite3``` _(considering that the pandas package has been imported from previously)_
+- 
