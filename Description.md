@@ -6,6 +6,10 @@
 - Handling Missing Values:
    - The NaN values were replaced with the mean for the numerical columns
    - The NaN values were replaced with the mode for the categorical columns
+   - As a last checking method for any missing values the missing values percentage was calculated to provide an overview of both whole datasets
 - Then ```.describe``` was used to provide an analytical overview of the mean, std, min, max for each numerical column
-- For the categorical columns the frequency counts were calculated
-- These analysis steps were repeated for the second dataset imported of the json file.
+- For the categorical columns the frequency counts were calculated through a loop command and a dictionary to store the data.
+- These analysis steps were repeated for the second dataset imported (json file).
+
+## SQLite Database Setup:
+
