@@ -22,4 +22,4 @@
 - We have our loaded and corrected dataset from previously
 - Then we can use ```df.to_sql``` command to load the dataset into our new table
 - Lastly we can use the pandas command ```pd.read_sql``` to read the dataset through our new created table in our db
-**Committing changes and closing our dataset should be done sporadically throughout by using ```conn.commit()``` & ```conn.close()```**
+- **Committing changes and closing our dataset should be done sporadically throughout by using ```conn.commit()``` & ```conn.close()```**
